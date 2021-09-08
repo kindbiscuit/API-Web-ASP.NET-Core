@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlueFashionRetailer</name>
+    </assembly>
+    <members>
+        <member name="M:LivrariaDoPepeu.Controllers.AuthController.Register(Microsoft.AspNetCore.Identity.IdentityUser)">
+            <summary>
+            Cria um novo usuário para autenticação.
+            </summary>
+            <param name="identityUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.AuthController.Token(Microsoft.AspNetCore.Identity.IdentityUser)">
+            <summary>
+            Cria um token de um usuário existente para autenticação.
+            </summary>
+            <param name="identityUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.ProductController.Index">
+            <summary>
+             Returns a list of all products registered in database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.ProductController.Index(System.Nullable{System.Int32})">
+            <summary>
+           Returns a product registered in database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.ProductController.Create(LivrariaDoPepeu.Models.Product)">
+            <summary>
+            CCreates an specified product according to a body data
+            </summary>
+            <param name="prod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.ProductController.Update(LivrariaDoPepeu.Models.Product)">
+            <summary>
+            Updates an specified product according to body data
+            </summary>
+            <param name="prod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.ProductController.Delete(System.Nullable{System.Int32})">
+            <summary>
+           Deletes an specified product according to ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LivrariaDoPepeu.Controllers.ProductController.ProductsByRole(System.String)">
+            <summary>
+             Returns all products created according to an specified role
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
